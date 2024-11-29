@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    padding-right: 50%;
+    padding-top: 8%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(https://media.istockphoto.com/id/520544094/photo/alarm-clock-on-laptop.jpg?s=612x612&w=0&k=20&c=Uq13ntdLwujal-mU1Aglouovb2FP2umel8RI-QUYFjc=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+.clock{
+    display: flex;
+}
+
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+
+.clock span{
+    width: 100px;
+    height: 80px;
+    background-color: brown;
+    opacity: .8;
+    padding-top: 5%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: 0%;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0, 0, 1);
+    vertical-align:middle ;
+    height: 60px;
+}
+
+.clock .text{
+    height: 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: darkred;
+    vertical-align: middle;
+}
+
+.clock #ampm{
+    bottom: 0%;
+    position: absolute;
+    width: 60px;
+    height: 35px;
+    font-size: 25px;
+    background: green;
+}
